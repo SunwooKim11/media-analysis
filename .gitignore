@@ -30,3 +30,4 @@ data/analysis/*.zip
 kmu_articleList.html
 naver_*.html
 naver_*.txt
+uv.lock
