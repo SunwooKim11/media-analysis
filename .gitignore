@@ -12,9 +12,21 @@ wheels/
 # Secrets
 .env
 
-# Crawled data (reproducible)
+# Crawled data (large files, reproducible)
 data/raw/
+data/processed/
+
+# Keep analysis results for Streamlit Cloud
+# data/analysis/ is included (light versions only)
+
+# Large analysis files (use _light.csv versions instead)
+data/analysis/checkpoint_*.csv
+data/analysis/industry_risk_ml_v2.csv
+data/analysis/kookmin_media_ml_v2.csv
+data/analysis/kookmin_press_ml_v2.csv
+data/analysis/*.zip
 
 # Misc
 kmu_articleList.html
-requirements.txt
+naver_*.html
+naver_*.txt
